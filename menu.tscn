@@ -57,22 +57,20 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="MainBg" type="Control" parent="Menu"]
-margin_right = 40.0
-margin_bottom = 40.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 
 [node name="ColorRect" type="TextureRect" parent="Menu/MainBg"]
-margin_left = -42.0
-margin_top = -184.0
-margin_right = 1290.78
-margin_bottom = 1149.0
-rect_scale = Vector2( 1.0609, 1.53356 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 120.0
+margin_bottom = -421.0
+rect_scale = Vector2( 0.860167, 1.48757 )
 texture = ExtResource( 4 )
 
 [node name="BackgroundAspect" type="AspectRatioContainer" parent="Menu/MainBg"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = 960.0
-margin_bottom = 1293.0
 stretch_mode = 3
 
 [node name="TextureRect" type="TextureRect" parent="Menu/MainBg/BackgroundAspect"]
